@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Book Flight</title>
+<link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+<div class="form-container">
+<h2>Book a Flight</h2>
+<form action="../cgi-bin/book.cgi" method="post">
+<label>Name:<input type="text" name="name" required></
+label>
+<label>Age:<input type="number" name="age" required></
+label>
+<label>Flight No:<input type="number" name="flightNo"
+required></label>
+<label>Class:
+<select name="class">
+<option value="1">Economy</option>
+<option value="2">Business</option>
+</select>
+</label>
+<button type="submit">Book</button>
+</form>
+<a href="home.html">← Back Home</a>
+</div>
+</body>
+</html>

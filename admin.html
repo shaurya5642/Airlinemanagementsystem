@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Admin Login / Add Flight</title>
+<link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+<div class="form-container">
+<h2>Admin Login / Add Flight</h2>
+<form action="../cgi-bin/admin.cgi" method="post">
+<label>Flight No:<input type="number" name="flightNo"
+required></label>
+<label>Source:<input type="text" name="src"
+required></label>
+<label>Destination:<input type="text" name="dst"
+required></label>
+<label>Date:<input type="date" name="date"
+required></label>
+<label>Total Seats:<input type="number" name="seats"
+required></label>
+<button type="submit">Add Flight</button>
+</form>
+<a href="home.html">← Back Home</a>
+</div>
+</body>
+</html>
